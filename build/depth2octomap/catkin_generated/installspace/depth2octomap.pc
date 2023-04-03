@@ -1,0 +1,8 @@
+prefix=/home/joy/octomap_ws/install
+
+Name: depth2octomap
+Description: Description of depth2octomap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
