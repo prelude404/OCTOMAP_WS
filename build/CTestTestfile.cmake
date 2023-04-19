@@ -6,5 +6,8 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("octomap_mapping/octomap_mapping")
+subdirs("grid_path_searcher")
 subdirs("depth2octomap")
 subdirs("octomap_mapping/octomap_server")
+subdirs("rviz_plugins")
+subdirs("waypoint_generator")

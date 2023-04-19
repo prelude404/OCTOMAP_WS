@@ -132,8 +132,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/joy/octomap_ws/build/gtest/cmake_install.cmake")
   include("/home/joy/octomap_ws/build/octomap_mapping/octomap_mapping/cmake_install.cmake")
+  include("/home/joy/octomap_ws/build/grid_path_searcher/cmake_install.cmake")
   include("/home/joy/octomap_ws/build/depth2octomap/cmake_install.cmake")
   include("/home/joy/octomap_ws/build/octomap_mapping/octomap_server/cmake_install.cmake")
+  include("/home/joy/octomap_ws/build/rviz_plugins/cmake_install.cmake")
+  include("/home/joy/octomap_ws/build/waypoint_generator/cmake_install.cmake")
 
 endif()
 

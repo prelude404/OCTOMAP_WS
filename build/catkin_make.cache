@@ -1,2 +1,2 @@
-depth2octomap:octomap_mapping/octomap_mapping:octomap_mapping/octomap_server
+depth2octomap:grid_path_searcher:octomap_mapping/octomap_mapping:octomap_mapping/octomap_server:rviz_plugins:waypoint_generator
 -DCATKIN_DEVEL_PREFIX=/home/joy/octomap_ws/devel -DCMAKE_INSTALL_PREFIX=/home/joy/octomap_ws/install -G Unix Makefiles
