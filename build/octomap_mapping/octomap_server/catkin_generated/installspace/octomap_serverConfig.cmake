@@ -67,14 +67,14 @@ set(octomap_server_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(octomap_server_SOURCE_PREFIX /home/joy/octomap_ws/src/octomap_mapping/octomap_server)
-  set(octomap_server_DEVEL_PREFIX /home/joy/octomap_ws/devel)
+  set(octomap_server_SOURCE_PREFIX /home/joy/OCTOMAP_WS/src/octomap_mapping/octomap_server)
+  set(octomap_server_DEVEL_PREFIX /home/joy/OCTOMAP_WS/devel)
   set(octomap_server_INSTALL_PREFIX "")
   set(octomap_server_PREFIX ${octomap_server_DEVEL_PREFIX})
 else()
   set(octomap_server_SOURCE_PREFIX "")
   set(octomap_server_DEVEL_PREFIX "")
-  set(octomap_server_INSTALL_PREFIX /home/joy/octomap_ws/install)
+  set(octomap_server_INSTALL_PREFIX /home/joy/OCTOMAP_WS/install)
   set(octomap_server_PREFIX ${octomap_server_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/joy/octomap_ws/install/lib;/home/joy/octomap_ws/devel/lib;/home/joy/jaka_ws/devel/lib;/home/joy/mavros_ws/devel/lib;/home/joy/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joy/OCTOMAP_WS/install/lib;/home/joy/OCTOMAP_WS/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

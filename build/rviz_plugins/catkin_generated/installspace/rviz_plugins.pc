@@ -1,4 +1,4 @@
-prefix=/home/joy/octomap_ws/install
+prefix=/home/joy/OCTOMAP_WS/install
 
 Name: rviz_plugins
 Description: Description of rviz_plugins

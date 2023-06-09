@@ -1,8 +1,8 @@
-# Install script for directory: /home/joy/octomap_ws/src/depth2octomap
+# Install script for directory: /home/joy/OCTOMAP_WS/src/depth2octomap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/joy/octomap_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joy/OCTOMAP_WS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,18 +37,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joy/octomap_ws/build/depth2octomap/catkin_generated/installspace/depth2octomap.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joy/OCTOMAP_WS/build/depth2octomap/catkin_generated/installspace/depth2octomap.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depth2octomap/cmake" TYPE FILE FILES
-    "/home/joy/octomap_ws/build/depth2octomap/catkin_generated/installspace/depth2octomapConfig.cmake"
-    "/home/joy/octomap_ws/build/depth2octomap/catkin_generated/installspace/depth2octomapConfig-version.cmake"
+    "/home/joy/OCTOMAP_WS/build/depth2octomap/catkin_generated/installspace/depth2octomapConfig.cmake"
+    "/home/joy/OCTOMAP_WS/build/depth2octomap/catkin_generated/installspace/depth2octomapConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depth2octomap" TYPE FILE FILES "/home/joy/octomap_ws/src/depth2octomap/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/depth2octomap" TYPE FILE FILES "/home/joy/OCTOMAP_WS/src/depth2octomap/package.xml")
 endif()
 

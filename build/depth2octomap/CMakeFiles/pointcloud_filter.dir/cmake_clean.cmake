@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/joy/OCTOMAP_WS/devel/lib/depth2octomap/pointcloud_filter"
+  "/home/joy/OCTOMAP_WS/devel/lib/depth2octomap/pointcloud_filter.pdb"
   "CMakeFiles/pointcloud_filter.dir/src/pointcloud_filter.cpp.o"
-  "/home/joy/octomap_ws/devel/lib/depth2octomap/pointcloud_filter.pdb"
-  "/home/joy/octomap_ws/devel/lib/depth2octomap/pointcloud_filter"
+  "CMakeFiles/pointcloud_filter.dir/src/pointcloud_filter.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

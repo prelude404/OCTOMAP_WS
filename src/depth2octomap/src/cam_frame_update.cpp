@@ -121,8 +121,8 @@ int main(int argc, char **argv)
 
             ang1.data = servo_angle(0)*180.0/pi;
             ang2.data = servo_angle(1)*180.0/pi;
-            servo1_pub.publish(ang1);
-            servo2_pub.publish(ang2);
+            // servo1_pub.publish(ang1);
+            // servo2_pub.publish(ang2);
 
             TF_update(servo_angle);
         }

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/joy/octomap_ws/src/grid_path_searcher/include/Astar_searcher.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/Astar_searcher.h
 iostream
 -
 ros/ros.h
@@ -16,21 +16,21 @@ ros/console.h
 Eigen/Eigen
 -
 backward.hpp
-/home/joy/octomap_ws/src/grid_path_searcher/include/backward.hpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/backward.hpp
 node.h
-/home/joy/octomap_ws/src/grid_path_searcher/include/node.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/node.h
 
-/home/joy/octomap_ws/src/grid_path_searcher/include/JPS_searcher.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/JPS_searcher.h
 Astar_searcher.h
-/home/joy/octomap_ws/src/grid_path_searcher/include/Astar_searcher.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/Astar_searcher.h
 JPS_utils.h
-/home/joy/octomap_ws/src/grid_path_searcher/include/JPS_utils.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/JPS_utils.h
 
-/home/joy/octomap_ws/src/grid_path_searcher/include/JPS_utils.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/JPS_utils.h
 iostream
 -
 
-/home/joy/octomap_ws/src/grid_path_searcher/include/backward.hpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/backward.hpp
 fstream
 -
 iostream
@@ -92,7 +92,7 @@ utility
 map
 -
 
-/home/joy/octomap_ws/src/grid_path_searcher/include/node.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/node.h
 iostream
 -
 ros/ros.h
@@ -102,13 +102,13 @@ ros/console.h
 Eigen/Eigen
 -
 backward.hpp
-/home/joy/octomap_ws/src/grid_path_searcher/include/backward.hpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/include/backward.hpp
 
-/home/joy/octomap_ws/src/grid_path_searcher/src/Astar_searcher.cpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/Astar_searcher.cpp
 Astar_searcher.h
-/home/joy/octomap_ws/src/grid_path_searcher/src/Astar_searcher.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/Astar_searcher.h
 
-/home/joy/octomap_ws/src/grid_path_searcher/src/demo_node.cpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/demo_node.cpp
 iostream
 -
 fstream
@@ -138,19 +138,19 @@ visualization_msgs/MarkerArray.h
 visualization_msgs/Marker.h
 -
 Astar_searcher.h
-/home/joy/octomap_ws/src/grid_path_searcher/src/Astar_searcher.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/Astar_searcher.h
 JPS_searcher.h
-/home/joy/octomap_ws/src/grid_path_searcher/src/JPS_searcher.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/JPS_searcher.h
 backward.hpp
-/home/joy/octomap_ws/src/grid_path_searcher/src/backward.hpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/backward.hpp
 
-/home/joy/octomap_ws/src/grid_path_searcher/src/read_only/JPS_searcher.cpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/read_only/JPS_searcher.cpp
 JPS_searcher.h
-/home/joy/octomap_ws/src/grid_path_searcher/src/read_only/JPS_searcher.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/read_only/JPS_searcher.h
 
-/home/joy/octomap_ws/src/grid_path_searcher/src/read_only/JPS_utils.cpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/read_only/JPS_utils.cpp
 JPS_utils.h
-/home/joy/octomap_ws/src/grid_path_searcher/src/read_only/JPS_utils.h
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/read_only/JPS_utils.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

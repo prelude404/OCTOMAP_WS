@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/joy/OCTOMAP_WS/devel/lib/depth2octomap/cam_frame_update"
+  "/home/joy/OCTOMAP_WS/devel/lib/depth2octomap/cam_frame_update.pdb"
   "CMakeFiles/cam_frame_update.dir/src/cam_frame_update.cpp.o"
-  "/home/joy/octomap_ws/devel/lib/depth2octomap/cam_frame_update.pdb"
-  "/home/joy/octomap_ws/devel/lib/depth2octomap/cam_frame_update"
+  "CMakeFiles/cam_frame_update.dir/src/cam_frame_update.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/joy/OCTOMAP_WS/devel/lib/grid_path_searcher/random_complex"
+  "/home/joy/OCTOMAP_WS/devel/lib/grid_path_searcher/random_complex.pdb"
   "CMakeFiles/random_complex.dir/src/random_complex_generator.cpp.o"
-  "/home/joy/octomap_ws/devel/lib/grid_path_searcher/random_complex.pdb"
-  "/home/joy/octomap_ws/devel/lib/grid_path_searcher/random_complex"
+  "CMakeFiles/random_complex.dir/src/random_complex_generator.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

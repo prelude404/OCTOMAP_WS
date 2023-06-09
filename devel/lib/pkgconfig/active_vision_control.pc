@@ -1,0 +1,8 @@
+prefix=/home/joy/OCTOMAP_WS/devel
+
+Name: active_vision_control
+Description: Description of active_vision_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/joy/octomap_ws/src/waypoint_generator
+# Install script for directory: /home/joy/OCTOMAP_WS/src/waypoint_generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/joy/octomap_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joy/OCTOMAP_WS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,18 +37,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joy/octomap_ws/build/waypoint_generator/catkin_generated/installspace/waypoint_generator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joy/OCTOMAP_WS/build/waypoint_generator/catkin_generated/installspace/waypoint_generator.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_generator/cmake" TYPE FILE FILES
-    "/home/joy/octomap_ws/build/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig.cmake"
-    "/home/joy/octomap_ws/build/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig-version.cmake"
+    "/home/joy/OCTOMAP_WS/build/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig.cmake"
+    "/home/joy/OCTOMAP_WS/build/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_generator" TYPE FILE FILES "/home/joy/octomap_ws/src/waypoint_generator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_generator" TYPE FILE FILES "/home/joy/OCTOMAP_WS/src/waypoint_generator/package.xml")
 endif()
 

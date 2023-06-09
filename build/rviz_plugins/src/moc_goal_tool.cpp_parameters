@@ -4,5 +4,5 @@
 -DROSCONSOLE_BACKEND_LOG4CXX
 -DQT_NO_KEYWORDS
 -o
-/home/joy/octomap_ws/build/rviz_plugins/src/moc_goal_tool.cpp
-/home/joy/octomap_ws/src/rviz_plugins/src/goal_tool.h
+/home/joy/OCTOMAP_WS/build/rviz_plugins/src/moc_goal_tool.cpp
+/home/joy/OCTOMAP_WS/src/rviz_plugins/src/goal_tool.h

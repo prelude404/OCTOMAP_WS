@@ -1,4 +1,4 @@
-prefix=/home/joy/octomap_ws/install
+prefix=/home/joy/OCTOMAP_WS/install
 
 Name: depth2octomap
 Description: Description of depth2octomap

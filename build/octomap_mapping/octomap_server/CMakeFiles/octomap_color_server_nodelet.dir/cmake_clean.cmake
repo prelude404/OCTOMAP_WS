@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/joy/OCTOMAP_WS/devel/lib/liboctomap_color_server_nodelet.pdb"
+  "/home/joy/OCTOMAP_WS/devel/lib/liboctomap_color_server_nodelet.so"
   "CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.o"
-  "/home/joy/octomap_ws/devel/lib/liboctomap_color_server_nodelet.pdb"
-  "/home/joy/octomap_ws/devel/lib/liboctomap_color_server_nodelet.so"
+  "CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

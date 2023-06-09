@@ -71,7 +71,7 @@ int main(int argc, char **argv)
     PointCloud::Ptr cloud ( new PointCloud );
     sensor_msgs::PointCloud2 pub_pointcloud;
  
-    double sample_rate = 1.0; // 1HZ
+    double sample_rate = 100.0; // 1HZ
     ros::Rate naptime(sample_rate); // use to regulate loop rate
  
     while (ros::ok()) {

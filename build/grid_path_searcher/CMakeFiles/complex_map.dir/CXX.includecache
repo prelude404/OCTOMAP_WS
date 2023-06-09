@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/joy/octomap_ws/src/grid_path_searcher/src/complex_map.cpp
+/home/joy/OCTOMAP_WS/src/grid_path_searcher/src/complex_map.cpp
 iostream
 -
 pcl/io/pcd_io.h

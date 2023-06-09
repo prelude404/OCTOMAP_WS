@@ -67,14 +67,14 @@ set(rviz_plugins_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_plugins_SOURCE_PREFIX /home/joy/octomap_ws/src/rviz_plugins)
-  set(rviz_plugins_DEVEL_PREFIX /home/joy/octomap_ws/devel)
+  set(rviz_plugins_SOURCE_PREFIX /home/joy/OCTOMAP_WS/src/rviz_plugins)
+  set(rviz_plugins_DEVEL_PREFIX /home/joy/OCTOMAP_WS/devel)
   set(rviz_plugins_INSTALL_PREFIX "")
   set(rviz_plugins_PREFIX ${rviz_plugins_DEVEL_PREFIX})
 else()
   set(rviz_plugins_SOURCE_PREFIX "")
   set(rviz_plugins_DEVEL_PREFIX "")
-  set(rviz_plugins_INSTALL_PREFIX /home/joy/octomap_ws/install)
+  set(rviz_plugins_INSTALL_PREFIX /home/joy/OCTOMAP_WS/install)
   set(rviz_plugins_PREFIX ${rviz_plugins_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/joy/octomap_ws/install/lib;/home/joy/octomap_ws/devel/lib;/home/joy/jaka_ws/devel/lib;/home/joy/mavros_ws/devel/lib;/home/joy/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joy/OCTOMAP_WS/install/lib;/home/joy/OCTOMAP_WS/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

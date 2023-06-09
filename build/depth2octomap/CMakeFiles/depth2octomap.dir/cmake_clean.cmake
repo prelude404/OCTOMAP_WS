@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/joy/OCTOMAP_WS/devel/lib/depth2octomap/depth2octomap"
+  "/home/joy/OCTOMAP_WS/devel/lib/depth2octomap/depth2octomap.pdb"
   "CMakeFiles/depth2octomap.dir/src/depth2octomap.cpp.o"
-  "/home/joy/octomap_ws/devel/lib/depth2octomap/depth2octomap.pdb"
-  "/home/joy/octomap_ws/devel/lib/depth2octomap/depth2octomap"
+  "CMakeFiles/depth2octomap.dir/src/depth2octomap.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

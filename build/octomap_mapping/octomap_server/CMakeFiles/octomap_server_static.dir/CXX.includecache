@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/joy/octomap_ws/src/octomap_mapping/octomap_server/src/octomap_server_static.cpp
+/home/joy/OCTOMAP_WS/src/octomap_mapping/octomap_server/src/octomap_server_static.cpp
 ros/ros.h
 -
 octomap_msgs/conversions.h

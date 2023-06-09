@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/joy/octomap_ws/src/depth2octomap/src/cam_frame_update.cpp
+/home/joy/OCTOMAP_WS/src/depth2octomap/src/cam_frame_update.cpp
 iostream
 -
 ros/ros.h

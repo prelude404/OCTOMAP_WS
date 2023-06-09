@@ -67,14 +67,14 @@ set(octomap_server_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(octomap_server_SOURCE_PREFIX /home/joy/octomap_ws/src/octomap_mapping/octomap_server)
-  set(octomap_server_DEVEL_PREFIX /home/joy/octomap_ws/devel)
+  set(octomap_server_SOURCE_PREFIX /home/joy/OCTOMAP_WS/src/octomap_mapping/octomap_server)
+  set(octomap_server_DEVEL_PREFIX /home/joy/OCTOMAP_WS/devel)
   set(octomap_server_INSTALL_PREFIX "")
   set(octomap_server_PREFIX ${octomap_server_DEVEL_PREFIX})
 else()
   set(octomap_server_SOURCE_PREFIX "")
   set(octomap_server_DEVEL_PREFIX "")
-  set(octomap_server_INSTALL_PREFIX /home/joy/octomap_ws/install)
+  set(octomap_server_INSTALL_PREFIX /home/joy/OCTOMAP_WS/install)
   set(octomap_server_PREFIX ${octomap_server_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(octomap_server_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/joy/octomap_ws/devel/include;/home/joy/octomap_ws/src/octomap_mapping/octomap_server/include;/opt/ros/melodic/include " STREQUAL " ")
+if(NOT "/home/joy/OCTOMAP_WS/devel/include;/home/joy/OCTOMAP_WS/src/octomap_mapping/octomap_server/include;/opt/ros/melodic/include " STREQUAL " ")
   set(octomap_server_INCLUDE_DIRS "")
-  set(_include_dirs "/home/joy/octomap_ws/devel/include;/home/joy/octomap_ws/src/octomap_mapping/octomap_server/include;/opt/ros/melodic/include")
+  set(_include_dirs "/home/joy/OCTOMAP_WS/devel/include;/home/joy/OCTOMAP_WS/src/octomap_mapping/octomap_server/include;/opt/ros/melodic/include")
   if(NOT "https://github.com/OctoMap/octomap_mapping/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/OctoMap/octomap_mapping/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/octomap_server " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/joy/octomap_ws/devel/include;/home/joy/octomap_ws/src/octomap_mapp
         message(FATAL_ERROR "Project 'octomap_server' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'octomap_server' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/joy/octomap_ws/src/octomap_mapping/octomap_server/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'octomap_server' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/joy/OCTOMAP_WS/src/octomap_mapping/octomap_server/${idir}'.  ${_report}")
     endif()
     _list_append_unique(octomap_server_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/joy/octomap_ws/devel/lib;/home/joy/octomap_ws/devel/lib;/home/joy/jaka_ws/devel/lib;/home/joy/mavros_ws/devel/lib;/home/joy/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joy/OCTOMAP_WS/devel/lib;/home/joy/OCTOMAP_WS/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

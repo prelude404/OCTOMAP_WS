@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joy/octomap_ws/src
+CMAKE_SOURCE_DIR = /home/joy/OCTOMAP_WS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joy/octomap_ws/build
+CMAKE_BINARY_DIR = /home/joy/OCTOMAP_WS/build
 
 # Utility rule file for std_srvs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/bui
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 
 octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
-	cd /home/joy/octomap_ws/build/octomap_mapping/octomap_server && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/joy/OCTOMAP_WS/build/octomap_mapping/octomap_server && $(CMAKE_COMMAND) -P CMakeFiles/std_srvs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
 
 octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/depend:
-	cd /home/joy/octomap_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joy/octomap_ws/src /home/joy/octomap_ws/src/octomap_mapping/octomap_server /home/joy/octomap_ws/build /home/joy/octomap_ws/build/octomap_mapping/octomap_server /home/joy/octomap_ws/build/octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joy/OCTOMAP_WS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joy/OCTOMAP_WS/src /home/joy/OCTOMAP_WS/src/octomap_mapping/octomap_server /home/joy/OCTOMAP_WS/build /home/joy/OCTOMAP_WS/build/octomap_mapping/octomap_server /home/joy/OCTOMAP_WS/build/octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
 

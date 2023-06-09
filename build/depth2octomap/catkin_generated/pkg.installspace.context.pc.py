@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "depth2octomap"
-PROJECT_SPACE_DIR = "/home/joy/octomap_ws/install"
+PROJECT_SPACE_DIR = "/home/joy/OCTOMAP_WS/install"
 PROJECT_VERSION = "0.0.0"
